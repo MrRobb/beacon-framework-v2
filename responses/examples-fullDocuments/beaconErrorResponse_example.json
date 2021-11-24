@@ -1,5 +1,5 @@
 {
-  "$schema": "../beaconErrorResponse.json",  
+  "$schema": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json",  
   "meta": {
     "beaconId": "org.example.beacon.v2",
     "apiVersion": "v2.0",

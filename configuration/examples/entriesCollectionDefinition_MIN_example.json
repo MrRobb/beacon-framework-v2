@@ -1,5 +1,5 @@
 {
-  "$schema": "../entryTypeDefinition.json",
+  "$schema": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/configuration/entryTypeDefinition.json",
   "id": "dataset",
   "name": "Dataset",
   "ontologyTermForThisType": {
@@ -10,7 +10,7 @@
   "defaultSchema": {
     "id": "datasetDefaultSchema",
     "name": "Default schema for datasets",
-    "referenceToSchemaDefinition": "./datasets/defaultSchema.json",
+    "referenceToSchemaDefinition": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/datasets/defaultSchema.json",
     "schemaVersion": "v.2.draft-3"
   },
   "aCollectionOf": [{ "id": "exampleEntry", "name": "Example entries" }]

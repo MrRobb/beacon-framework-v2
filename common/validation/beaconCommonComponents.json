@@ -5,33 +5,33 @@
   "properties": {
     "$schema": { "type": "string", "description": "Added here to allow the example to comply with the 'additionalProperties:true' restriction."},
     "beaconId": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/BeaconId" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/BeaconId" },
     "apiVersion": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/ApiVersion" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ApiVersion" },
     "beaconError": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/BeaconError" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/BeaconError" },
     "listOfSchemas":
-      { "$ref": "../beaconCommonComponents.json#/definitions/ListOfSchemas" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfSchemas" },
     "schemasPerEntity": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/SchemasPerEntity" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/SchemasPerEntity" },
     "pagination": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/Pagination" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Pagination" },
     "includeResultsetResponses": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/IncludeResultsetResponses"},
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses"},
     "filters": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/Filters" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Filters" },
     "exists": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/Exists" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Exists" },
     "numTotalResults": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/NumTotalResults" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/NumTotalResults" },
     "info":
-      { "$ref": "../beaconCommonComponents.json#/definitions/Info" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Info" },
     "handover": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/Handover" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Handover" },
     "handoverType": 
-      { "$ref": "../beaconCommonComponents.json#/definitions/HandoverType" },
+      { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/HandoverType" },
     "listOfHandovers": 
-        { "$ref": "../beaconCommonComponents.json#/definitions/ListOfHandovers" }
+        { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfHandovers" }
   },
   "additionalProperties": false
 }

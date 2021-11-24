@@ -4,11 +4,11 @@
   "type": "object",
   "properties": {
     "$schema": {
-      "$ref": "../common/beaconCommonComponents.json#/definitions/$schema"
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/$schema"
     },
     "meta": {
       "description": "Information that is relevant to build the response.",
-      "$ref": "./beaconRequestMeta.json"
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestMeta.json"
     },
     "query": {
       "description": "Parameters to limit the list of returned results.",
@@ -16,26 +16,26 @@
       "properties": {
         "requestParameters": {
           "description": "TBD",
-          "$ref": "./requestParameters.json"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/requestParameters.json"
         },
         "filters": {
           "description": "Ontology based filters. Using CURIE syntax is encouraged.",
-          "$ref": "./filteringTerms.json"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/filteringTerms.json"
         },
         "includeResultsetResponses": {
-          "$ref": "../common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses"
         },
         "pagination": {
           "description": "Pagination to apply on the results.",
-          "$ref": "../common/beaconCommonComponents.json#/definitions/Pagination"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Pagination"
         },
         "requestedGranularity": {
           "description": "Requested granularity. Targeted Beacon could respond or not with the requested granularity. E.g. record level granularity could be requested, but the Beacon could respond only with boolean or count results.",
-          "$ref": "../common/beaconCommonComponents.json#/definitions/Granularity"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Granularity"
         },
         "testMode": {
           "description": "Used for indicating that a request or response is done in a test context. Purposed for compliance testing.",
-          "$ref": "../common/beaconCommonComponents.json#/definitions/TestMode"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/TestMode"
         }
       }
     }

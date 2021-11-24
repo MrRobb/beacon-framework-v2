@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "$schema": {
-      "$ref": "../../common/beaconCommonComponents.json#/definitions/$schema"
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/$schema"
     },
     "resultSets": {
       "type": "array",
@@ -40,7 +40,7 @@
         },
         "resultsHandovers": {
           "description": "List of handovers that apply to this resultset, not to the whole Beacon or to a result in particular.",
-          "$ref": "../../common/beaconCommonComponents.json#/definitions/ListOfHandovers"
+          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfHandovers"
         },
         "info": {
           "description": "Additional details that could be of interest about the Resultset. Provided to clearly enclose any attribute that is not part of the Beacon specification.",

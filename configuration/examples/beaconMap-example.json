@@ -3,7 +3,7 @@
   "endpointSets": {
     "dataset": {
       "entryType": "dataset",
-      "openAPIEndpointsDefinition": "./datasets/endpoints.json",
+      "openAPIEndpointsDefinition": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/datasets/endpoints.json",
       "rootUrl": "https://exampleBeacons.org/datasets",
       "singleEntryUrl": "https://exampleBeacons.org/datasets/{id}",
       "filteringTermsUrl": "https://exampleBeacons.org/datasets/{id}/filteringTerms",

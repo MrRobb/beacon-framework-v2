@@ -7,7 +7,7 @@
 
   "properties": {
     "$schema": {
-      "$ref": "../common/beaconCommonComponents.json#/definitions/$schema"
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/$schema"
     },
     "id": {
       "$comments": "++++++ THIS IS THE START OF THE ontologized element ++++++",
@@ -23,7 +23,7 @@
       "description": "A textual description for the element."
     },
     "ontologyTermForThisType": {
-      "$ref": "../common/ontologyTerm.json",
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json",
       "$comments": "++++++ THIS IS THE END OF THE ontologized element ++++++"
     },
 
@@ -34,20 +34,20 @@
     },
     "defaultSchema": {
       "description": "Description of the default schema used for this concept.",
-      "$ref": "../common/referenceToAnSchema.json"
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/referenceToAnSchema.json"
     },
     "additionallySupportedSchemas": {
       "description": "List of additional schemas that could be used for this concept in this instance of Beacon.",
       "type": "array",
       "items": {
-        "$ref": "../common/referenceToAnSchema.json"
+        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/referenceToAnSchema.json"
       }
     },
     "aCollectionOf": {
       "description": "If the entry type is a collection of other entry types, (e.g. a Dataset is a collection of Records), then this attribute must list the entry types that could be included. One collection type could be defined as included more than one entry type (e.g. a Dataset could include Individuals or Genomic Variants), in such cases the entries are alternative, meaning that a given instance of this entry type could be of only one of the types (e.g. a given Dataset contains Individuals, while another Dataset could contain Genomic Variants, but not both at once).",
       "includedConcepts": {
         "type": "array",
-        "$ref": "../common/basicElement.json"
+        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/basicElement.json"
       }
     },
     "filteringTerms": {
@@ -56,7 +56,7 @@
       "$comment": "TO DO: Double-check the proper way of referencing a path or relative path. 'format: uri' is throwing validation errors for relative file paths"
     },
     "nonFilteredQueriesAllowed": {
-      "$ref": "../common/beaconCommonComponents.json#/definitions/NonFilteredQueriesAllowed"
+      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/NonFilteredQueriesAllowed"
     }
   },
   "required": [
