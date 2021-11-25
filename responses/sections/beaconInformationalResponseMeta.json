@@ -5,14 +5,14 @@
   "properties": {
     "beaconId": {
       "description": "Identifier of the beacon, as defined in `Beacon`.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/BeaconId"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/BeaconId"
     },
     "apiVersion": {
       "description": "Version of the API.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ApiVersion"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ApiVersion"
     },
     "returnedSchemas": {
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfSchemas"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfSchemas"
     }
   },
   "$comment": "TO REVIEW: the required properties below results in a warning in the example.",

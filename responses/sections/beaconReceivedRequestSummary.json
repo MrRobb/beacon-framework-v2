@@ -5,37 +5,37 @@
   "properties": {
     "apiVersion": {
       "description": "API version expected by the client to be supported by the server and used in the response format.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ApiVersion"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ApiVersion"
     },
     "requestedSchemas": {
       "description": "Set of schemas to be used in the response to a request.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfSchemas",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/ListOfSchemas",
       "minItems": 0,
       "$comment": "TO DO: Add the format attribute as a uri.\n2. minItems:0 is used to confirm that an empty array is acceptable here."
     },
     "filters": {
       "description": "Ontology based filters. CURIE syntax is encouraged to be used.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Filters"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Filters"
     },
     "requestParameters": {
       "description": "Dictionary of request parameters received in the RequestBody",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/requestParameters.json"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/requestParameters.json"
     },
     "includeResultsetResponses": {
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/IncludeResultsetResponses"
     },
     "pagination": {
       "description": "Pagination to apply on the results.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Pagination"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Pagination"
     },
     "requestedGranularity": {
       "description": "Requested granularity. Targeted Beacon could respond or not with the requested granularity. E.g. record level granularity could be requested, but the Beacon could respond only with boolean or count results.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Granularity"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Granularity"
     }
     ,
     "testMode": {
       "description": "Used for indicating that a request was received in a test context. Purposed for compliance testing.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/TestMode"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/TestMode"
     }
   },
   "required": ["apiVersion", "requestedSchemas", "pagination", "requestedGranularity"]

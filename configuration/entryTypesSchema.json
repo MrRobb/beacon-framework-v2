@@ -14,7 +14,7 @@
       "description": "This is a dictionary of the entry types implemented in this Beacon instance.",
       "additionalProperties": {
         "type": "object",
-        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/configuration/entryTypeDefinition.json"
+        "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/configuration/entryTypeDefinition.json"
       },
       "minProperties": 1
     }

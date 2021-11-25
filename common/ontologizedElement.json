@@ -6,13 +6,13 @@
 
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/elementWithDescription.json"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/elementWithDescription.json"
     },
     {
       "type": "object",
       "required": ["ontologyTermForThisType"],
       "properties": {
-        "ontologyTermForThisType": { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json" }
+        "ontologyTermForThisType": { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json" }
       }
     }
   ],
